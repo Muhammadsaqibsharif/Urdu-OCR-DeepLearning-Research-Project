@@ -15,6 +15,7 @@ This research project aims to build an OCR system specifically for the Urdu lang
    - `04_Stroke.py`  
    - `05_RedrawEveryFramefromSpecialTemporalData.py`  
    - `06_LigatureStyleVideoRemakeFromFrames.py`
+   - `Project.py` *(New: GUI for Running Scripts)*
 
 3. **requirements.txt**  
    List of dependencies required to run the project.
@@ -47,6 +48,10 @@ The project involves several scripts that handle different stages of data collec
 5. **Video Remake**  
    **Script:** `06_LigatureStyleVideoRemakeFromFrames.py`  
    Compiles the saved frames into a video, reassembling the drawing into a sequence.
+
+6. **GUI for Running Scripts**  
+   **Script:** `Project.py` *(New)*  
+   A GUI built with Tkinter that allows users to run each script with a simple button click. This interface eliminates the need to manually execute each script from the command line. The GUI provides buttons to run all of the project's functionality and displays outputs and errors in message boxes.
 
 ## Detailed Breakdown of Scripts
 
@@ -81,6 +86,13 @@ Builds on the redrawing functionality with potentially advanced stroke analysis.
 ### `06_LigatureStyleVideoRemakeFromFrames.py`
 **Key Functions:**
 - `create_video_from_frames()`: Converts frames into a video.
+
+### `Project.py` *(GUI for Running Scripts)*  
+**Key Features:**
+- **GUI Built with Tkinter:** Provides a simple interface for running the project's scripts.
+- **Buttons for Each Script:** Each script has a corresponding button in the GUI for easy execution.
+- **Error Handling and Outputs:** Displays any errors or outputs in message boxes.
+- **Run All Scripts via GUI:** Users can now run all scripts from the same interface, making the process more user-friendly.
 
 ## Current Status
 The research project is in progress, with the focus currently on gathering and preprocessing data to build an effective dataset. The team is working towards integrating deep learning models, including CNN and LSTM, for accurate Urdu text recognition.
