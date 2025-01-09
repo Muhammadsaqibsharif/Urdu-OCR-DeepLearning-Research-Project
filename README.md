@@ -4,17 +4,26 @@
 This research project aims to build an OCR system specifically for the Urdu language using deep learning techniques. The system will leverage Convolutional Neural Networks (CNNs) for feature extraction and Long Short-Term Memory networks (LSTMs) for sequence learning to recognize and transcribe Urdu text. Currently, the project is focused on collecting and preprocessing data to create a robust dataset for training the model.
 
 ## Project Structure
-├── data/                    # Folder for storing frames, videos, and Excel data
-├── scripts/                 # All the Python scripts (01 to 06)
-│   ├── 01_Writing_Recording_Canvas.py
-│   ├── 02_EveryFrameCoordinatesVideo_to_Excel.py
-│   ├── 03_RedrawfromSpecialTemporalData.py
-│   ├── 04_Stroke.py
-│   ├── 05_RedrawEveryFramefromSpecialTemporalData.py
-│   ├── 06_LigatureStyleVideoRemakeFromFrames.py
-├── requirements.txt         # List of dependencies
-├── README.md                # Project documentation
-└── LICENSE                  # License information
+1. **data/**  
+   Folder for storing frames, videos, and Excel data.
+
+2. **scripts/**  
+   All the Python scripts for processing and analysis:
+   - `01_Writing_Recording_Canvas.py`  
+   - `02_EveryFrameCoordinatesVideo_to_Excel.py`  
+   - `03_RedrawfromSpecialTemporalData.py`  
+   - `04_Stroke.py`  
+   - `05_RedrawEveryFramefromSpecialTemporalData.py`  
+   - `06_LigatureStyleVideoRemakeFromFrames.py`
+
+3. **requirements.txt**  
+   List of dependencies required to run the project.
+
+4. **README.md**  
+   Project documentation file.
+
+5. **LICENSE**  
+   License information for the project.
 
 ## Overall Workflow
 The project involves several scripts that handle different stages of data collection, analysis, and drawing recreation. Here's the workflow of the project:
